@@ -1,0 +1,7 @@
+*** Settings ***
+Library		Selenium2Library
+
+*** Testcases ***
+Test Open Google.com with Firefox
+	Open Browser   http://www.google.com   firefox
+	[Teardown]   Close Browser
