@@ -15,6 +15,6 @@ docker run --rm -e TEST_FILE=firefox.txt \
 Run in container with PATH
 ```
 docker run --rm -e TEST_PATH=/robots/ \
--v $(pwd)/robots:/robots \
+-v $(pwd):/robots \
 -ti docker-robotframework
 ```
